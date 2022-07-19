@@ -35,8 +35,10 @@ class MyApp extends StatelessWidget {
                 cursor: SystemMouseCursors.forbidden,
                 // cursor: SystemMouseCursors.click,
                 child: GestureDetector(
-                  child: Container(),
-                  onTap: () {},
+                  child: Icon(Icons.add_comment, size: 20),
+                  onTap: () {
+                    print(1);
+                  },
                 ),
               ),
             ],
